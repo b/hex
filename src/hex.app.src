@@ -1,0 +1,14 @@
+{application, hex,
+ [
+  {description, "Hex string/binary conversion utilities"},
+  {vsn, "1.0.0"},
+  {modules, [
+             hex
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
