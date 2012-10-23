@@ -4,5 +4,5 @@ all:
 clean:
 	./rebar -v clean
 
-test:
+eunit:
 	./rebar -v eunit
