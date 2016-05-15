@@ -1,14 +1,19 @@
-{application, hex,
+{application, hex2bin,
  [
   {description, "Hex string/binary conversion utilities"},
   {vsn, "1.0.0"},
   {modules, [
-             hex
+             hex2bin
             ]},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
+  {maintainers, [
+                  "Benjamin Black"
+                ]},
+  {licenses, ["Apache"]},
+  {links, [{"Github", "https://github.com/aesedepece/hex2bin"}]},
   {env, []}
  ]}.

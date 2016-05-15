@@ -1,6 +1,6 @@
 %% from http://necrobious.blogspot.com/2008/03/binary-to-hex-string-back-to-binary-in.html
 
--module(hex).
+-module(hex2bin).
 -export([bin_to_hexstr/1,hexstr_to_bin/1]).
 
 bin_to_hexstr(Bin) ->
